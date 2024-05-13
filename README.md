@@ -3,18 +3,18 @@
 ## Intorduction
 
 ## Environment Setup
-Before setting up the environment, download the train-clean-100 folder from the above mentioned link and place in the ./Data directory inside the project's main directory.
+Before setting up the environment, download the Cora Dataset and place it in athe project's main directory.
 
 To set up the environment for this project, follow these steps:
 
 1. Clone this repository:
 ```bash
-git clone https://github.com/ohmpatel46/DL4M_Project.git
+git clone https://github.com/adkrish1/DL-Final-Project.git
 ```
 
 2. Navigate to the project directory:
 ```bash
-cd ./DL4M_Project
+cd ./DL-Final-Project
 ```
 
 3. Create a new Conda environment using the environment.yml file:
