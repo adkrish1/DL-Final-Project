@@ -2,9 +2,11 @@
 This is a PyTorch implementation of GraphSAGE from the paper [Inductive Representation Learning on Large Graphs](http://papers.nips.cc/paper/6703-inductive-representation-learning-on-large-graphs).
 
 ## Usage
-
+Setup the environment using the environment.yml file.
 In the `src` directory, edit the `config.json` file to specify arguments and
-flags. Then run `python main.py`.
+flags. 
+Edit the config dictionary in the src/main.py file in the same manner.
+Then run `python main.py`.
 
 ## Limitations
 * Currently, only supports the Cora dataset. However, for a new dataset it should be fairly straightforward to write a Dataset class similar to `datasets.Cora`.
@@ -12,3 +14,4 @@ flags. Then run `python main.py`.
 ## References
 * [Inductive Representation Learning on Large Graphs](http://papers.nips.cc/paper/6703-inductive-representation-learning-on-large-graphs), Hamilton et al., NeurIPS 2017.
 * [Collective Classification in Network Data](https://www.aaai.org/ojs/index.php/aimagazine/article/view/2157), Sen et al., AI Magazine 2008.
+* https://github.com/raunakkmr/GraphSAGE
