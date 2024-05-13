@@ -1,0 +1,21 @@
+{
+    "json": "/teamspace/studios/this_studio/GraphSAGE/src/config.json",
+    "print_every" : 1,
+    "dataset" : "Cora",
+    "dataset_path" : "/teamspace/studios/this_studio/cora",
+    "mode" : "train",
+    "task" : "node_classification",
+    "agg_class" : "MeanAggregator",
+    "cuda" : "True",
+    "hidden_dims" : [64,32,32,16],
+    "dropout" : 0.30, 
+    "num_samples" : -1,
+    "batch_size" : 32, 
+    "epochs" : 20, 
+    "lr" : 1e-3,
+    "weight_decay" : 5e-4,
+    "self_loop" : "True",
+    "normalize_adj" : "True",
+    "transductive" : "True",
+    "num_layers": 5
+}
