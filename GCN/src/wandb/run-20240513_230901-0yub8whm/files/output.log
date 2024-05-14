@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/state/partition1/job-46452332/ipykernel_581541/460618517.py", line 11, in sweepFunction
+    model = GCN(features.shape[1], configg.hidden_dim, NUM_CLASSES, config.dropout, configg.use_bias)
+AttributeError: 'NoneType' object has no attribute 'dropout'

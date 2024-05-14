@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/state/partition1/job-46452332/ipykernel_583029/2479511009.py", line 12, in sweepFunction
+    val_acc, val_loss = training_loop(model, features, labels, adj, train_set_ind, val_set_ind, configg, config.epochh, config.optimizerval, config.lrval)
+AttributeError: 'NoneType' object has no attribute 'epochh'

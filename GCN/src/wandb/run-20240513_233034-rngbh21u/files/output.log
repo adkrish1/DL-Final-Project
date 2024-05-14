@@ -1,0 +1,26 @@
+Epoch:    0 | Train loss: 1.955 | Train acc: 0.10 | Val loss: 1.945 | Val acc: 0.16
+Epoch:    1 | Train loss: 1.950 | Train acc: 0.11 | Val loss: 1.945 | Val acc: 0.17
+Epoch:    2 | Train loss: 1.951 | Train acc: 0.13 | Val loss: 1.946 | Val acc: 0.15
+Epoch:    3 | Train loss: 1.945 | Train acc: 0.11 | Val loss: 1.943 | Val acc: 0.16
+Epoch:    4 | Train loss: 1.948 | Train acc: 0.09 | Val loss: 1.944 | Val acc: 0.17
+Epoch:    5 | Train loss: 1.949 | Train acc: 0.11 | Val loss: 1.943 | Val acc: 0.17
+Epoch:    6 | Train loss: 1.948 | Train acc: 0.13 | Val loss: 1.944 | Val acc: 0.17
+Epoch:    7 | Train loss: 1.947 | Train acc: 0.14 | Val loss: 1.946 | Val acc: 0.17
+Epoch:    8 | Train loss: 1.949 | Train acc: 0.11 | Val loss: 1.947 | Val acc: 0.17
+Epoch:    9 | Train loss: 1.947 | Train acc: 0.09 | Val loss: 1.945 | Val acc: 0.16
+Epoch:   10 | Train loss: 1.950 | Train acc: 0.13 | Val loss: 1.945 | Val acc: 0.18
+Epoch:   11 | Train loss: 1.948 | Train acc: 0.11 | Val loss: 1.943 | Val acc: 0.15
+Epoch:   12 | Train loss: 1.947 | Train acc: 0.11 | Val loss: 1.937 | Val acc: 0.19
+Epoch:   13 | Train loss: 1.949 | Train acc: 0.13 | Val loss: 1.943 | Val acc: 0.18
+Epoch:   14 | Train loss: 1.953 | Train acc: 0.11 | Val loss: 1.945 | Val acc: 0.15
+Epoch:   15 | Train loss: 1.950 | Train acc: 0.12 | Val loss: 1.943 | Val acc: 0.18
+Epoch:   16 | Train loss: 1.949 | Train acc: 0.14 | Val loss: 1.944 | Val acc: 0.18
+Epoch:   17 | Train loss: 1.950 | Train acc: 0.10 | Val loss: 1.946 | Val acc: 0.15
+Epoch:   18 | Train loss: 1.945 | Train acc: 0.16 | Val loss: 1.946 | Val acc: 0.15
+Epoch:   19 | Train loss: 1.948 | Train acc: 0.10 | Val loss: 1.940 | Val acc: 0.19
+Epoch:   20 | Train loss: 1.943 | Train acc: 0.11 | Val loss: 1.945 | Val acc: 0.16
+Epoch:   21 | Train loss: 1.948 | Train acc: 0.10 | Val loss: 1.941 | Val acc: 0.16
+Epoch:   22 | Train loss: 1.947 | Train acc: 0.16 | Val loss: 1.942 | Val acc: 0.17
+EARLY STOPPING condition met. Stopped at epoch: 22.
+Total training time: 0.31 seconds
+Test loss: 1.944  |  Test acc: 0.14

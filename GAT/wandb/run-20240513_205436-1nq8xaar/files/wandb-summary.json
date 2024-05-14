@@ -1,0 +1,1 @@
+{"epoch": 799, "_timestamp": 1715648088.869812, "_runtime": 11.923010110855103, "_step": 2399, "training_loss": 0.24495528638362885, "training_acc": 0.8928571428571429, "_wandb": {"runtime": 11}}

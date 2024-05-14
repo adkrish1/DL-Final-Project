@@ -1,0 +1,40 @@
+2024-05-13 23:08:40,551 INFO    Thread-89 :574524 [wandb_setup.py:_flush():76] Current SDK version is 0.17.0
+2024-05-13 23:08:40,551 INFO    Thread-89 :574524 [wandb_setup.py:_flush():76] Configure stats pid to 574524
+2024-05-13 23:08:40,551 INFO    Thread-89 :574524 [wandb_setup.py:_flush():76] Loading settings from /home/vg2507/.config/wandb/settings
+2024-05-13 23:08:40,551 INFO    Thread-89 :574524 [wandb_setup.py:_flush():76] Loading settings from /scratch/vg2507/DL/pytorch-GAT/wandb/settings
+2024-05-13 23:08:40,551 INFO    Thread-89 :574524 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'project': 'dl-gat-project-run', 'entity': 'team9449', 'root_dir': '/scratch/vg2507/DL/pytorch-GAT', 'run_id': 'cjv2rssg', 'sweep_param_path': '/scratch/vg2507/DL/pytorch-GAT/wandb/sweep-vvivc356/config-cjv2rssg.yaml', 'sweep_id': 'vvivc356'}
+2024-05-13 23:08:40,551 INFO    Thread-89 :574524 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-05-13 23:08:40,551 INFO    Thread-89 :574524 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-05-13 23:08:40,551 INFO    Thread-89 :574524 [wandb_setup.py:_flush():76] Applying login settings: {}
+2024-05-13 23:08:40,551 INFO    Thread-89 :574524 [wandb_init.py:_log_setup():520] Logging user logs to /scratch/vg2507/DL/pytorch-GAT/wandb/run-20240513_230840-cjv2rssg/logs/debug.log
+2024-05-13 23:08:40,551 INFO    Thread-89 :574524 [wandb_init.py:_log_setup():521] Logging internal logs to /scratch/vg2507/DL/pytorch-GAT/wandb/run-20240513_230840-cjv2rssg/logs/debug-internal.log
+2024-05-13 23:08:40,552 INFO    Thread-89 :574524 [wandb_init.py:_jupyter_setup():466] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x14914edd3130>
+2024-05-13 23:08:40,552 INFO    Thread-89 :574524 [wandb_init.py:init():560] calling init triggers
+2024-05-13 23:08:40,552 INFO    Thread-89 :574524 [wandb_init.py:init():567] wandb.init called with sweep_config: {'epochss': 800, 'lrval': 1, 'optimizerval': 'Adam'}
+config: {}
+2024-05-13 23:08:40,552 INFO    Thread-89 :574524 [wandb_init.py:init():610] starting backend
+2024-05-13 23:08:40,552 INFO    Thread-89 :574524 [wandb_init.py:init():614] setting up manager
+2024-05-13 23:08:40,557 INFO    Thread-89 :574524 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2024-05-13 23:08:40,568 INFO    Thread-89 :574524 [wandb_init.py:init():622] backend started and connected
+2024-05-13 23:08:40,576 INFO    Thread-89 :574524 [wandb_run.py:_config_callback():1376] config_cb None None {'epochss': 800, 'lrval': 1, 'optimizerval': 'Adam'}
+2024-05-13 23:08:40,579 INFO    Thread-89 :574524 [wandb_run.py:_label_probe_notebook():1328] probe notebook
+2024-05-13 23:08:40,579 INFO    Thread-89 :574524 [wandb_run.py:_label_probe_notebook():1338] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2024-05-13 23:08:40,579 INFO    Thread-89 :574524 [wandb_init.py:init():711] updated telemetry
+2024-05-13 23:08:40,783 INFO    Thread-89 :574524 [wandb_init.py:init():744] communicating run to backend with 90.0 second timeout
+2024-05-13 23:08:41,113 INFO    Thread-89 :574524 [wandb_run.py:_on_init():2396] communicating current version
+2024-05-13 23:08:41,240 INFO    Thread-89 :574524 [wandb_run.py:_on_init():2405] got version response 
+2024-05-13 23:08:41,240 INFO    Thread-89 :574524 [wandb_init.py:init():795] starting run threads in backend
+2024-05-13 23:08:49,595 INFO    MainThread:574524 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2024-05-13 23:08:49,595 INFO    MainThread:574524 [wandb_init.py:_pause_backend():431] pausing backend
+2024-05-13 23:08:49,607 INFO    MainThread:574524 [wandb_init.py:_resume_backend():436] resuming backend
+2024-05-13 23:08:49,707 INFO    Thread-89 :574524 [wandb_run.py:_console_start():2374] atexit reg
+2024-05-13 23:08:49,724 INFO    Thread-89 :574524 [wandb_run.py:_redirect():2229] redirect: wrap_raw
+2024-05-13 23:08:49,724 INFO    Thread-89 :574524 [wandb_run.py:_redirect():2294] Wrapping output streams.
+2024-05-13 23:08:49,724 INFO    Thread-89 :574524 [wandb_run.py:_redirect():2319] Redirects installed.
+2024-05-13 23:08:49,724 INFO    Thread-89 :574524 [wandb_init.py:init():838] run started, returning control to user process
+2024-05-13 23:08:50,611 INFO    MainThread:574524 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2024-05-13 23:08:50,612 INFO    MainThread:574524 [wandb_init.py:_pause_backend():431] pausing backend
+2024-05-13 23:08:50,639 INFO    MainThread:574524 [wandb_init.py:_resume_backend():436] resuming backend
+2024-05-13 23:08:51,640 INFO    MainThread:574524 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2024-05-13 23:08:51,640 INFO    MainThread:574524 [wandb_init.py:_pause_backend():431] pausing backend
+2024-05-13 23:08:51,661 INFO    MainThread:574524 [wandb_init.py:_resume_backend():436] resuming backend

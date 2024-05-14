@@ -1,0 +1,10 @@
+ggwp
+{'num_of_epochs': 10000, 'patience_period': 1000, 'lr': 0.005, 'weight_decay': 0.0005, 'should_test': True, 'dataset_name': 'CORA', 'should_visualize': False, 'enable_tensorboard': False, 'console_log_freq': 100, 'checkpoint_freq': 1000, 'num_of_layers': 2, 'num_heads_per_layer': [8, 1], 'num_features_per_layer': [1433, 8, 7], 'add_skip_connection': False, 'bias': True, 'dropout': 0.4}
+/state/partition1/job-46452332/ipykernel_574524/1424749847.py:32: DeprecationWarning: Please import `csr_matrix` from the `scipy.sparse` namespace; the `scipy.sparse.csr` namespace is deprecated and will be removed in SciPy 2.0.0.
+  data = pickle.load(file)
+Traceback (most recent call last):
+  File "/state/partition1/job-46452332/ipykernel_574524/277266855.py", line 4, in sweepFunction
+    train_gat(get_training_args(), config.optimizerval, config.lrval, config.epochss)
+  File "/state/partition1/job-46452332/ipykernel_574524/2501325725.py", line 27, in train_gat
+    optimizer = Adadelta(gat.parameters(), lr=lrval, weight_decay=config['weight_decay'])
+NameError: name 'Adadelta' is not defined

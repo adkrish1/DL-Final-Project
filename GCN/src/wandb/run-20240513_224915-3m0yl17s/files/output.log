@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/state/partition1/job-46452332/ipykernel_577927/3407151448.py", line 11, in sweepFunction
+    model = GCN(features.shape[1], config.hidden_dim, NUM_CLASSES, configg.dropout, config.use_bias)
+AttributeError: 'NoneType' object has no attribute 'hidden_dim'

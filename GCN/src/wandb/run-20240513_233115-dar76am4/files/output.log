@@ -1,0 +1,14 @@
+Epoch:    0 | Train loss: 1.947 | Train acc: 0.10 | Val loss: 1.959 | Val acc: 0.10
+Epoch:    1 | Train loss: 20.995 | Train acc: 0.26 | Val loss: 22.723 | Val acc: 0.20
+Epoch:    2 | Train loss: 38.500 | Train acc: 0.35 | Val loss: 32.022 | Val acc: 0.26
+Epoch:    3 | Train loss: 31.214 | Train acc: 0.45 | Val loss: 27.946 | Val acc: 0.35
+Epoch:    4 | Train loss: 8.990 | Train acc: 0.51 | Val loss: 11.200 | Val acc: 0.54
+Epoch:    5 | Train loss: 2.167 | Train acc: 0.66 | Val loss: 4.330 | Val acc: 0.61
+Epoch:    6 | Train loss: 2.570 | Train acc: 0.62 | Val loss: 7.373 | Val acc: 0.45
+Epoch:    7 | Train loss: 4.644 | Train acc: 0.51 | Val loss: 7.403 | Val acc: 0.37
+Epoch:    8 | Train loss: 2.399 | Train acc: 0.54 | Val loss: 6.196 | Val acc: 0.41
+Epoch:    9 | Train loss: 2.004 | Train acc: 0.46 | Val loss: 5.976 | Val acc: 0.32
+Epoch:   10 | Train loss: 1.364 | Train acc: 0.56 | Val loss: 4.508 | Val acc: 0.37
+EARLY STOPPING condition met. Stopped at epoch: 10.
+Total training time: 0.07 seconds
+Test loss: 3.932  |  Test acc: 0.41

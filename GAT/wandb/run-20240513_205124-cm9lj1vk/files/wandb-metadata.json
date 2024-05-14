@@ -1,0 +1,287 @@
+{
+    "os": "Linux-5.14.0-284.40.1.el9_2.x86_64-x86_64-with-glibc2.34",
+    "python": "3.9.19",
+    "heartbeatAt": "2024-05-14T00:51:24.859485",
+    "startedAt": "2024-05-14T00:51:24.440980",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "<python with no main file>",
+    "codePathLocal": null,
+    "git": {
+        "remote": "https://github.com/gordicaleksa/pytorch-GAT.git",
+        "commit": "39c8f0ee634477033e8b1a6e9a6da3c7ed71bbd1"
+    },
+    "email": null,
+    "root": "/scratch/vg2507/DL/pytorch-GAT",
+    "host": "gr028.hpc.nyu.edu",
+    "username": "vg2507",
+    "executable": "/scratch/vg2507/.conda/envs/envpls/bin/python",
+    "cpu_count": 48,
+    "cpu_count_logical": 48,
+    "cpu_freq": {
+        "current": 3.8433958333333362,
+        "min": 1200.0,
+        "max": 3900.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 3.5,
+            "min": 1200.0,
+            "max": 3900.0
+        },
+        {
+            "current": 3.499,
+            "min": 1200.0,
+            "max": 3900.0
+        },
+        {
+            "current": 3.9,
+            "min": 1200.0,
+            "max": 3900.0
+        },
+        {
+            "current": 3.9,
+            "min": 1200.0,
+            "max": 3900.0
+        },
+        {
+            "current": 3.499,
+            "min": 1200.0,
+            "max": 3900.0
+        },
+        {
+            "current": 3.5,
+            "min": 1200.0,
+            "max": 3900.0
+        },
+        {
+            "current": 3.9,
+            "min": 1200.0,
+            "max": 3900.0
+        },
+        {
+            "current": 3.9,
+            "min": 1200.0,
+            "max": 3900.0
+        },
+        {
+            "current": 3.9,
+            "min": 1200.0,
+            "max": 3900.0
+        },
+        {
+            "current": 3.9,
+            "min": 1200.0,
+            "max": 3900.0
+        },
+        {
+            "current": 3.9,
+            "min": 1200.0,
+            "max": 3900.0
+        },
+        {
+            "current": 3.9,
+            "min": 1200.0,
+            "max": 3900.0
+        },
+        {
+            "current": 3.9,
+            "min": 1200.0,
+            "max": 3900.0
+        },
+        {
+            "current": 3.9,
+            "min": 1200.0,
+            "max": 3900.0
+        },
+        {
+            "current": 3.9,
+            "min": 1200.0,
+            "max": 3900.0
+        },
+        {
+            "current": 3.9,
+            "min": 1200.0,
+            "max": 3900.0
+        },
+        {
+            "current": 3.9,
+            "min": 1200.0,
+            "max": 3900.0
+        },
+        {
+            "current": 3.9,
+            "min": 1200.0,
+            "max": 3900.0
+        },
+        {
+            "current": 3.9,
+            "min": 1200.0,
+            "max": 3900.0
+        },
+        {
+            "current": 3.9,
+            "min": 1200.0,
+            "max": 3900.0
+        },
+        {
+            "current": 3.9,
+            "min": 1200.0,
+            "max": 3900.0
+        },
+        {
+            "current": 3.9,
+            "min": 1200.0,
+            "max": 3900.0
+        },
+        {
+            "current": 3.9,
+            "min": 1200.0,
+            "max": 3900.0
+        },
+        {
+            "current": 3.9,
+            "min": 1200.0,
+            "max": 3900.0
+        },
+        {
+            "current": 3.5,
+            "min": 1200.0,
+            "max": 3900.0
+        },
+        {
+            "current": 3.9,
+            "min": 1200.0,
+            "max": 3900.0
+        },
+        {
+            "current": 3.9,
+            "min": 1200.0,
+            "max": 3900.0
+        },
+        {
+            "current": 3.9,
+            "min": 1200.0,
+            "max": 3900.0
+        },
+        {
+            "current": 3.9,
+            "min": 1200.0,
+            "max": 3900.0
+        },
+        {
+            "current": 3.9,
+            "min": 1200.0,
+            "max": 3900.0
+        },
+        {
+            "current": 3.9,
+            "min": 1200.0,
+            "max": 3900.0
+        },
+        {
+            "current": 3.9,
+            "min": 1200.0,
+            "max": 3900.0
+        },
+        {
+            "current": 3.9,
+            "min": 1200.0,
+            "max": 3900.0
+        },
+        {
+            "current": 3.9,
+            "min": 1200.0,
+            "max": 3900.0
+        },
+        {
+            "current": 3.9,
+            "min": 1200.0,
+            "max": 3900.0
+        },
+        {
+            "current": 3.9,
+            "min": 1200.0,
+            "max": 3900.0
+        },
+        {
+            "current": 3.9,
+            "min": 1200.0,
+            "max": 3900.0
+        },
+        {
+            "current": 3.9,
+            "min": 1200.0,
+            "max": 3900.0
+        },
+        {
+            "current": 3.9,
+            "min": 1200.0,
+            "max": 3900.0
+        },
+        {
+            "current": 3.9,
+            "min": 1200.0,
+            "max": 3900.0
+        },
+        {
+            "current": 3.9,
+            "min": 1200.0,
+            "max": 3900.0
+        },
+        {
+            "current": 3.9,
+            "min": 1200.0,
+            "max": 3900.0
+        },
+        {
+            "current": 3.9,
+            "min": 1200.0,
+            "max": 3900.0
+        },
+        {
+            "current": 3.9,
+            "min": 1200.0,
+            "max": 3900.0
+        },
+        {
+            "current": 3.9,
+            "min": 1200.0,
+            "max": 3900.0
+        },
+        {
+            "current": 3.9,
+            "min": 1200.0,
+            "max": 3900.0
+        },
+        {
+            "current": 3.9,
+            "min": 1200.0,
+            "max": 3900.0
+        },
+        {
+            "current": 3.9,
+            "min": 1200.0,
+            "max": 3900.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 78.08685302734375,
+            "used": 21.29389190673828
+        }
+    },
+    "gpu": "Quadro RTX 8000",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "Quadro RTX 8000",
+            "memory_total": 48318382080
+        }
+    ],
+    "memory": {
+        "total": 377.0617561340332
+    }
+}

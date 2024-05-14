@@ -1,0 +1,10 @@
+ggwp
+{'num_of_epochs': 10000, 'patience_period': 1000, 'lr': 0.005, 'weight_decay': 0.0005, 'should_test': True, 'dataset_name': 'CORA', 'should_visualize': False, 'enable_tensorboard': False, 'console_log_freq': 100, 'checkpoint_freq': 1000, 'num_of_layers': 2, 'num_heads_per_layer': [8, 1], 'num_features_per_layer': [1433, 8, 7], 'add_skip_connection': False, 'bias': True, 'dropout': 0.4}
+/state/partition1/job-46446778/ipykernel_1356028/1424749847.py:32: DeprecationWarning: Please import `csr_matrix` from the `scipy.sparse` namespace; the `scipy.sparse.csr` namespace is deprecated and will be removed in SciPy 2.0.0.
+  data = pickle.load(file)
+Traceback (most recent call last):
+  File "/state/partition1/job-46446778/ipykernel_1356028/1873226185.py", line 6, in sweepFunction
+    train_gat(get_training_args(), config.optimizerval, config.lrval, config.epochss)
+  File "/state/partition1/job-46446778/ipykernel_1356028/3315365963.py", line 23, in train_gat
+    optimizer = optim.Adam(gat.parameters(), lr=lrval)
+NameError: name 'optim' is not defined

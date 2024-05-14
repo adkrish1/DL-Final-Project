@@ -1,0 +1,8 @@
+wandb_version: 1
+
+epochss:
+  value: 800
+lrval:
+  value: 1
+optimizerval:
+  value: Adam

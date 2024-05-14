@@ -1,0 +1,25 @@
+ggwp
+{'num_of_epochs': 10000, 'patience_period': 1000, 'lr': 0.005, 'weight_decay': 0.0005, 'should_test': True, 'dataset_name': 'CORA', 'should_visualize': False, 'enable_tensorboard': False, 'console_log_freq': 100, 'checkpoint_freq': 1000, 'num_of_layers': 2, 'num_heads_per_layer': [8, 1], 'num_features_per_layer': [1433, 8, 7], 'add_skip_connection': False, 'bias': True, 'dropout': 0.4}
+GAT training: time elapsed= 0.01 [s] | epoch=1 | val acc=0.166
+GAT training: time elapsed= 0.90 [s] | epoch=101 | val acc=0.246
+GAT training: time elapsed= 1.79 [s] | epoch=201 | val acc=0.45
+/state/partition1/job-46452332/ipykernel_589065/1424749847.py:32: DeprecationWarning: Please import `csr_matrix` from the `scipy.sparse` namespace; the `scipy.sparse.csr` namespace is deprecated and will be removed in SciPy 2.0.0.
+  data = pickle.load(file)
+GAT training: time elapsed= 2.69 [s] | epoch=301 | val acc=0.462
+GAT training: time elapsed= 3.73 [s] | epoch=401 | val acc=0.582
+GAT training: time elapsed= 4.83 [s] | epoch=501 | val acc=0.586
+GAT training: time elapsed= 5.95 [s] | epoch=601 | val acc=0.64
+GAT training: time elapsed= 7.13 [s] | epoch=701 | val acc=0.69
+GAT training: time elapsed= 8.15 [s] | epoch=801 | val acc=0.67
+GAT training: time elapsed= 9.04 [s] | epoch=901 | val acc=0.696
+GAT training: time elapsed= 10.31 [s] | epoch=1001 | val acc=0.718
+GAT training: time elapsed= 11.39 [s] | epoch=1101 | val acc=0.726
+GAT training: time elapsed= 12.39 [s] | epoch=1201 | val acc=0.736
+GAT training: time elapsed= 13.32 [s] | epoch=1301 | val acc=0.724
+GAT training: time elapsed= 14.29 [s] | epoch=1401 | val acc=0.738
+GAT training: time elapsed= 15.27 [s] | epoch=1501 | val acc=0.742
+GAT training: time elapsed= 16.52 [s] | epoch=1601 | val acc=0.734
+GAT training: time elapsed= 17.63 [s] | epoch=1701 | val acc=0.718
+GAT training: time elapsed= 18.80 [s] | epoch=1801 | val acc=0.736
+GAT training: time elapsed= 19.74 [s] | epoch=1901 | val acc=0.728
+Test accuracy = 0.698

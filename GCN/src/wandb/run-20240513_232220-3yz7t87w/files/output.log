@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/state/partition1/job-46452332/ipykernel_586100/1840533104.py", line 11, in sweepFunction
+    val_acc, val_loss = training_loop(model, features, labels, adj, train_set_ind, val_set_ind, configg, config.epochh, config.optimizerval, config.lrval)
+  File "/state/partition1/job-46452332/ipykernel_586100/1416287020.py", line 9, in training_loop
+    optimizer = Adam(gat.parameters(), lr=lrval)
+NameError: name 'gat' is not defined

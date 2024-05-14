@@ -1,0 +1,8 @@
+wandb_version: 1
+
+epochss:
+  value: 1200
+lrval:
+  value: 0.001
+optimizerval:
+  value: Adadelta

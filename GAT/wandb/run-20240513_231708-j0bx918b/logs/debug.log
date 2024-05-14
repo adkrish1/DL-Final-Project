@@ -1,0 +1,41 @@
+2024-05-13 23:17:08,641 INFO    Thread-71 :582116 [wandb_setup.py:_flush():76] Current SDK version is 0.17.0
+2024-05-13 23:17:08,641 INFO    Thread-71 :582116 [wandb_setup.py:_flush():76] Configure stats pid to 582116
+2024-05-13 23:17:08,641 INFO    Thread-71 :582116 [wandb_setup.py:_flush():76] Loading settings from /home/vg2507/.config/wandb/settings
+2024-05-13 23:17:08,641 INFO    Thread-71 :582116 [wandb_setup.py:_flush():76] Loading settings from /scratch/vg2507/DL/pytorch-GAT/wandb/settings
+2024-05-13 23:17:08,642 INFO    Thread-71 :582116 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'project': 'dl-gat-project-run2', 'entity': 'team9449', 'root_dir': '/scratch/vg2507/DL/pytorch-GAT', 'run_id': 'j0bx918b', 'sweep_param_path': '/scratch/vg2507/DL/pytorch-GAT/wandb/sweep-6defj84t/config-j0bx918b.yaml', 'sweep_id': '6defj84t'}
+2024-05-13 23:17:08,642 INFO    Thread-71 :582116 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-05-13 23:17:08,642 INFO    Thread-71 :582116 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-05-13 23:17:08,642 INFO    Thread-71 :582116 [wandb_setup.py:_flush():76] Applying login settings: {}
+2024-05-13 23:17:08,642 INFO    Thread-71 :582116 [wandb_init.py:_log_setup():520] Logging user logs to /scratch/vg2507/DL/pytorch-GAT/wandb/run-20240513_231708-j0bx918b/logs/debug.log
+2024-05-13 23:17:08,642 INFO    Thread-71 :582116 [wandb_init.py:_log_setup():521] Logging internal logs to /scratch/vg2507/DL/pytorch-GAT/wandb/run-20240513_231708-j0bx918b/logs/debug-internal.log
+2024-05-13 23:17:08,642 INFO    Thread-71 :582116 [wandb_init.py:_jupyter_setup():466] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x1526b4144730>
+2024-05-13 23:17:08,643 INFO    Thread-71 :582116 [wandb_init.py:init():560] calling init triggers
+2024-05-13 23:17:08,643 INFO    Thread-71 :582116 [wandb_init.py:init():567] wandb.init called with sweep_config: {'epochss': 1200, 'lrval': 0.1, 'optimizerval': 'Adam'}
+config: {}
+2024-05-13 23:17:08,643 INFO    Thread-71 :582116 [wandb_init.py:init():610] starting backend
+2024-05-13 23:17:08,643 INFO    Thread-71 :582116 [wandb_init.py:init():614] setting up manager
+2024-05-13 23:17:08,651 INFO    Thread-71 :582116 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2024-05-13 23:17:08,652 INFO    Thread-71 :582116 [wandb_init.py:init():622] backend started and connected
+2024-05-13 23:17:08,660 INFO    Thread-71 :582116 [wandb_run.py:_config_callback():1376] config_cb None None {'epochss': 1200, 'lrval': 0.1, 'optimizerval': 'Adam'}
+2024-05-13 23:17:08,663 INFO    Thread-71 :582116 [wandb_run.py:_label_probe_notebook():1328] probe notebook
+2024-05-13 23:17:08,663 INFO    Thread-71 :582116 [wandb_run.py:_label_probe_notebook():1338] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2024-05-13 23:17:08,663 INFO    Thread-71 :582116 [wandb_init.py:init():711] updated telemetry
+2024-05-13 23:17:08,763 INFO    Thread-71 :582116 [wandb_init.py:init():744] communicating run to backend with 90.0 second timeout
+2024-05-13 23:17:08,955 INFO    Thread-71 :582116 [wandb_run.py:_on_init():2396] communicating current version
+2024-05-13 23:17:09,016 INFO    Thread-71 :582116 [wandb_run.py:_on_init():2405] got version response 
+2024-05-13 23:17:09,016 INFO    Thread-71 :582116 [wandb_init.py:init():795] starting run threads in backend
+2024-05-13 23:17:13,155 INFO    Thread-71 :582116 [wandb_run.py:_console_start():2374] atexit reg
+2024-05-13 23:17:13,156 INFO    Thread-71 :582116 [wandb_run.py:_redirect():2229] redirect: wrap_raw
+2024-05-13 23:17:13,156 INFO    Thread-71 :582116 [wandb_run.py:_redirect():2294] Wrapping output streams.
+2024-05-13 23:17:13,156 INFO    Thread-71 :582116 [wandb_run.py:_redirect():2319] Redirects installed.
+2024-05-13 23:17:13,160 INFO    Thread-71 :582116 [wandb_init.py:init():838] run started, returning control to user process
+2024-05-13 23:17:20,042 INFO    Thread-71 :582116 [wandb_run.py:_finish():2103] finishing run team9449/dl-gat-project-run2/j0bx918b
+2024-05-13 23:17:20,042 ERROR   Thread-71 :582116 [jupyter.py:save_history():437] Run pip install nbformat to save notebook history
+2024-05-13 23:17:20,042 INFO    Thread-71 :582116 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2024-05-13 23:17:20,042 INFO    Thread-71 :582116 [wandb_init.py:_jupyter_teardown():448] cleaning up jupyter logic
+2024-05-13 23:17:20,043 INFO    Thread-71 :582116 [wandb_run.py:_atexit_cleanup():2343] got exitcode: 0
+2024-05-13 23:17:20,043 INFO    Thread-71 :582116 [wandb_run.py:_restore():2326] restore
+2024-05-13 23:17:20,043 INFO    Thread-71 :582116 [wandb_run.py:_restore():2332] restore done
+2024-05-13 23:17:24,442 INFO    Thread-71 :582116 [wandb_run.py:_footer_history_summary_info():3994] rendering history
+2024-05-13 23:17:24,443 INFO    Thread-71 :582116 [wandb_run.py:_footer_history_summary_info():4026] rendering summary
+2024-05-13 23:17:24,458 INFO    Thread-71 :582116 [wandb_run.py:_footer_sync_info():3953] logging synced files
