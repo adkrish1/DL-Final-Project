@@ -1,43 +1,19 @@
-# DL-Final-Project
+# Deep Learning Final Project
+Analysis of Graph Attention Networks and Graph Neural Networks in Node and Graph-Level Tasks. Compared and optimized three different graph based models - Graph Attention Network(GAT), Graph Convolution Network(GCN) and GraphSage.
 
-## Intorduction
+Results:
+ - GAT Validation Accuracy - 87%
+ - GraphSage Validation Accuracy - 79%
+ - GCN Validation Accuracy - 77%
+ - Best optimizer for all three was ADAM
 
-## Environment Setup
-Before setting up the environment, download the Cora Dataset and place it in athe project's main directory.
-
-To set up the environment for this project, follow these steps:
-
-1. Clone this repository:
-```bash
-git clone https://github.com/adkrish1/DL-Final-Project.git
-```
-
-2. Navigate to the project directory:
-```bash
-cd ./DL-Final-Project
-```
-
-3. Create a new Conda environment using the environment.yml file:
-```bash
-conda env create -f environment.yml
-```
-This will create a new environment with all the required dependencies.
+Wandb:
+- [GAT wandb sweep ](https://wandb.ai/team9449/dl-gat-project-run3/reports/GAT-DL-Project--Vmlldzo3OTMzNjM4)
+- [GCN wandb sweep](https://api.wandb.ai/links/team9449/0mtl5ewl)
+- [GraphSage wandb sweep](https://wandb.ai/dl_project_x/my-second-sweep)
 
 
-4. Activate the newly created environment:
-```bash
-conda activate myenv
-```
-Replace `myenv` with the name of your environment.
-
-
-5. Start working on the project!
-
-## Models
-
-We implemented modified version of 3 models.
-1. Graph Attention Networks (GAT)
-2. GraphSAGE
-3. Graph Convolutional Networks (GCN)
-
-## References
+Contributors:
+ - Vishwa Gopalakrishnan
+ - Aditya Krishna
+ - Ohm Patel
