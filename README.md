@@ -8,7 +8,7 @@ Results:
  - Best optimizer for all three was ADAM
 
 Wandb:
-- [GAT wandb sweep ](https://wandb.ai/team9449/dl-gat-project-run3/reports/GAT-DL-Project--Vmlldzo3OTMzNjM4)
+- [GAT wandb sweep ](https://api.wandb.ai/links/team9449/62iw5hhn)
 - [GCN wandb sweep](https://api.wandb.ai/links/team9449/0mtl5ewl)
 - [GraphSage wandb sweep](https://wandb.ai/dl_project_x/my-second-sweep)
 
